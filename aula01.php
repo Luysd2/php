@@ -5,7 +5,7 @@ echo $x."<br/>";
 var_dump($x);
 
 unset($x); 
-exit;
+//exit;
 echo $x;
 
 
