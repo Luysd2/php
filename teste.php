@@ -1,5 +1,5 @@
 <?php
-echo "Helo word <br>";
+echo "Olá Mundo <br>";
 
 $x = 10;
 $y = 10;
