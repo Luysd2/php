@@ -10,4 +10,6 @@ $soma = $x + $y;
 
 echo $soma . "<br>";
 
+//teste feito para subir o arquivo no git
+
 ?>
