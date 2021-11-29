@@ -8,6 +8,7 @@ session_regenerate_id(); //para mudar o id da seção cada vez q atualizar a pag
 //por padrão o id é o msm, msm quando vc atualiza a pagina
 
 echo session_id();
-var_dump($_SESSION);
+//echo "<br>";
+//var_dump($_SESSION);
 
 ?>
