@@ -17,7 +17,7 @@ class Endereco{
         
     }
     public function __destruct(){
-        //serve para destruir, apagar da memoria
+        //serve para destruir, apagar da as informações na memoria
         //var_dump("Destruir");
         
     }
