@@ -5,7 +5,7 @@ class Pessoa{
         return "O meu nome é " .$this->nome;
     }
 }
-$luis= new Pessoa();
+$luis= new Pessoa(); //estanciando a classe 
 $luis -> nome = "Luis Fernando";
 echo $luis -> falar();
 
