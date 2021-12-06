@@ -1,0 +1,43 @@
+comando do sql usados nesta aula.
+
+crate database dbphp7; //criar base de dados 
+
+use dbphp7; //usar a base de dados
+
+//criar tabelas com seus tipos 
+create table tb_usuario(
+idusuario int not null auto_increment primary key,
+deslogin varchar(64) not null,
+dessenha varchar(256) not null,
+dtcadastro timestamp not null default current_timestamp()
+);
+
+//inseridno valores nas tabelas 
+insert into tb_usuario (deslogin, dessenha) values ('root', 'senha');
+OBS: os campos idusuario e dtcadastro, os valores neles sao inseridos 
+automaticamente
+
+// atalizando valores na coluna dessenha
+update tb_usuario set dessenha = '1234567' where idusuario = 1;
+
+// apagando valores
+delete from tb_usuario where idusuario = 1;
+OBS: ele pode apagar todos os valores ta tabela ou apenas aqueles 
+campos que correspondem ao id = 1
+
+//informação:
+se eu adicionar novos valores ao campos, o id não vai ser mais 1, pq o 
+delete deira um rastro(indicando que a tabela ja teve valores), se eu 
+adicinar novamente o id vai ser o proximo numero do valor apagando.
+Exemplo: se ja existiu um id =1, o proximo criado sera id=2, msm que 
+as informações sobre o id=1 sejam apagadas.
+O delete ele apaga os dados e não formata tabela
+
+//formata a a tabela 
+truncate table tb_usuario;
+
+//apagar um banco de dados
+drop database nome_do_banco
+OBS: esse comando n foi usado nesta aula, é so para mim n esquecer 
+
+
