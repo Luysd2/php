@@ -11,7 +11,9 @@ class Sql extends PDO{
 
     private function setParams($statment, $parameers = array()){
         foreach($parameers as $kay => $value){
-            $this -> setParam($kay, $value);
+            $this -> setParam($statment, $kay, $value);
+            /* o erro é que o setParam so tinha dois paramentros($kay, $value) 
+            e tinha que ser 3 ($statment, $kay, $value) */
         }
     }
     private function setParam($statment, $key, $value){
