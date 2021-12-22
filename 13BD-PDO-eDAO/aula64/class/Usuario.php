@@ -35,7 +35,7 @@ class Usuario{
 
     public function loadById($id){
         $sql = new Sql();
-        $result = $sql->select("SELECT * FROM tbusuario WHERE idusuario = :ID", array(
+        $result = $sql->select("SELECT * FROM tb_usuario WHERE idusuario = :ID", array(
             ":ID"=> $id
         ));
         if(count($result) > 0){
