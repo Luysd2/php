@@ -18,20 +18,24 @@
 // echo json_encode($search);
 
 //carrega um usuario verificando o login e senha
-$usuario = new Usuario();
-$usuario->login("Fiz", "Fernando");
-
-echo $usuario;
+// $usuario = new Usuario();
+// $usuario->login("Fiz", "Fernando");
+// echo $usuario;
 
 //criando um novo usuario
-// $aluno = new Usuario("LUIS", "D@2");
+// $aluno = new Usuario("Fernando", "D@2");
 // $aluno->insert();
 // echo $aluno;
 
 //atualizando dados
 // $usuario = new Usuario();
 // $usuario->loadById(12);
-// $usuario->update("2222", "222");
+// $usuario->update("Sophia", "Filha");
 // echo $usuario;
+
+$usuario = new Usuario();
+$usuario->loadById(17);
+$usuario->delete();
+echo $usuario;
 
  ?>
