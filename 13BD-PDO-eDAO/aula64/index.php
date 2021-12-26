@@ -19,7 +19,19 @@
 
 //carrega um usuario verificando o login e senha
 $usuario = new Usuario();
-$usuario->login("ff", "633de4b0c14ca52ea2432a3c8a5c4c31");
+$usuario->login("Fiz", "Fernando");
+
 echo $usuario;
+
+//criando um novo usuario
+// $aluno = new Usuario("LUIS", "D@2");
+// $aluno->insert();
+// echo $aluno;
+
+//atualizando dados
+// $usuario = new Usuario();
+// $usuario->loadById(12);
+// $usuario->update("2222", "222");
+// echo $usuario;
 
  ?>
