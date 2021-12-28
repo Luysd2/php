@@ -23,7 +23,7 @@
 // echo $usuario;
 
 //criando um novo usuario
-// $aluno = new Usuario("Fernando", "D@2");
+// $aluno = new Usuario("Sophia", "S2");
 // $aluno->insert();
 // echo $aluno;
 
@@ -33,9 +33,10 @@
 // $usuario->update("Sophia", "Filha");
 // echo $usuario;
 
-$usuario = new Usuario();
-$usuario->loadById(17);
-$usuario->delete();
-echo $usuario;
+// apagando o usuario
+// $usuario = new Usuario();
+// $usuario->loadById(17);
+// $usuario->delete();
+// echo $usuario;
 
  ?>
