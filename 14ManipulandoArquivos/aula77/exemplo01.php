@@ -19,6 +19,6 @@ $data = json_decode($response, true); //converter json para array
 // print_r($data["localidade"]); // chave do array
 // echo "<br>";
 // print_r($data["complemento"]); // chave do array
-//teste para o git 
+//teste  git 
 
 ?>
