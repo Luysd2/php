@@ -1,0 +1,25 @@
+{
+    "name": "luysd2/composer",
+    "description": "Aula para criar e testa o composer",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [{
+        "name": "Luis Fernando",
+        "email": "luysd2@gmail.com",
+        "role": "Developer"
+    }],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/" 
+        },
+        "files": [
+            "source/config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "6.0.*"
+    }
+}
