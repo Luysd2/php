@@ -22,7 +22,7 @@ foreach ($imagens as $img) {
         o date() serve para organizar a data e hora */
         $info["url"] = "http://localhost/aulasPhp/14ManipulandoArquivos/aula70/" . $filename;
         /* chave url para acessar o arquivo via url
-        str_replace("\\", "/") para ajustar a barra se tiver invertida(como no windows)*/
+        str_replace("\\", "/", $filename) para ajustar a barra se tiver invertida(como no windows)*/
          array_push($data, $info);
          //array_push serve para preencher um array 
 
