@@ -1,0 +1,5 @@
+explicando sobre Defense in depth
+
+Traduzido do inglês-Defesa em profundidade é um conceito usado em Segurança 
+da informação, no qual várias camadas de controles de segurança são colocadas 
+em um sistema de tecnologia da informação.
