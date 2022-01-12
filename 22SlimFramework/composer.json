@@ -1,0 +1,14 @@
+{
+    "name": "luysd2/slim",
+    "description": "Conhecendo Slim Framework",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [{
+        "name": "Luis Fernando",
+        "email": "luysd2@gmail.com",
+        "role": "Developer"
+    }],
+    "require": {
+        "slim/slim":"2.0"
+    }
+}
